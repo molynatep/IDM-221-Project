@@ -21,20 +21,21 @@
     font-display: swap;
 }
 
-
-
 body {
     font-family: 'montserrat';
     font-size: .875rem;
+    color: #3D405B;
 }
 
 h1, h2{
     font-family: 'bebas';
+    color: #3D405B;
 }
 h3 {
     font-family: 'montserrat';
     font-weight: bold;
     font-size: 1rem;
+    color: #3D405B;
 }
 
 /*logo*/
