@@ -39,10 +39,50 @@ h3 {
 }
 
 /*logo*/
-div.header_logo { width:70px; } 
+.logo{ width:50px; } 
 
 /*nav states*/
-a:link {color:cadetblue; }
+a:link {color:#3d405b; }
 a:hover { color:pink; }
 a:active { color:rosybrown; }
-a:visited { color:none }
+a:visited { color:#3d405b; }
+
+/*intro-frontpage*/
+p.intro {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding: 5rem 1rem;
+    background-color: #f7ede2;
+    overflow-x: hidden;
+}
+
+/*nav style*/
+nav {
+    height: 90px;
+    font-family: 'bebas','montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+nav .logo {
+    display: block;
+    float: left;
+    padding: 1rem 1rem;
+}
+
+ul nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+/*nav not stacking vertical*/
+ul.menu li {
+    display: inline-flex; 
+}
+
+ul.menu {
+    float: right;
+    padding: .6rem 1rem;
+}
