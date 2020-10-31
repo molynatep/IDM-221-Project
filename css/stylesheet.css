@@ -1,4 +1,4 @@
-/*fonts sheet*/
+/*FONTS SHEET*/
 @font-face { 
     font-family: 'montserrat';
     src: url('fonts/montserrat/montserrat-medium.woff2') format('woff2');
@@ -21,31 +21,68 @@
     font-display: swap;
 }
 
+/*general font sizing/typeface*/
 body {
-    font-family: 'montserrat';
+    font-family: 'montserrat',sans-serif;
     font-size: .875rem;
     color: #3D405B;
 }
 
 h1, h2{
-    font-family: 'bebas';
+    font-family: 'bebas','montserrat',sans-serif;
     color: #3D405B;
 }
 h3 {
-    font-family: 'montserrat';
+    font-family: 'montserrat',sans-serif;
     font-weight: bold;
     font-size: 1rem;
     color: #3D405B;
 }
 
+/*NAV BAR*/
 /*logo*/
-.logo{ width:50px; } 
+.logo {
+     width:50px; 
+    } 
+
+
+nav .logo {
+    display: block;
+    float: left;
+    padding: 1rem 1rem;
+}
 
 /*nav states*/
-a:link {color:#3d405b; }
-a:hover { color:pink; }
-a:active { color:rosybrown; }
-a:visited { color:#3d405b; }
+a {
+    color: #3D405B;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#84a59d;
+    text-decoration: none;
+}
+
+/*nav style*/
+nav {
+    height: 90px;
+    font-family: 'bebas','montserrat', sans-serif;
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*nav not stacking vertical*/
+ul.menu li {
+    display: inline-flex; 
+    margin-right: 10px;
+}
+
+ul.menu {
+    float: right;
+    padding: .6rem 1rem;
+}
 
 /*intro-frontpage*/
 p.intro {
@@ -57,32 +94,8 @@ p.intro {
     overflow-x: hidden;
 }
 
-/*nav style*/
-nav {
-    height: 90px;
-    font-family: 'bebas','montserrat', sans-serif;
-    font-size: 1.3rem;
-}
-
-nav .logo {
-    display: block;
-    float: left;
-    padding: 1rem 1rem;
-}
-
-ul nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-}
-
-/*nav not stacking vertical*/
-ul.menu li {
-    display: inline-flex; 
-}
-
-ul.menu {
-    float: right;
-    padding: .6rem 1rem;
+/*Resume and About*/
+.resume,.about{
+    margin: 6.3rem 2.8rem;
+    line-height: 1.3rem;
 }
