@@ -88,14 +88,21 @@ ul.menu {
 p.intro {
     font-size: 2rem;
     font-weight: bold;
-    line-height: 2.5rem;
+    line-height: 2.7rem;
     padding: 5rem 1rem;
     background-color: #f7ede2;
-    overflow-x: hidden;
+
 }
 
 /*Resume and About*/
 .resume,.about{
     margin: 6.3rem 2.8rem;
     line-height: 1.3rem;
+}
+
+.resumetext {
+    display: inline-block;
+}
+.dl {
+    
 }
