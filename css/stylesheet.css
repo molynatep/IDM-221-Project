@@ -1,37 +1,45 @@
 /*FONTS SHEET*/
 @font-face { 
     font-family: 'montserrat';
-    src: url('../css/fonts/montserrat/montserrat-medium.woff2') format('woff2'),
-    url('../css/fonts/montserrat/montserrat-medium.woff') format('woff');
+    src: url('/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+    url('/fonts/montserrat/Montserrat-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;    
 }
 
+@font-face { 
+    font-family: 'montserrat';
+    src: url('/fonts/montserrat/Montserrat-MediumItalic.woff2') format('woff2'),
+    url('/fonts/montserrat/Montserrat-MediumItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;    
+}
+
 @font-face {
     font-family: 'montserrat';
-    src: url('../css/fonts/montserrat/montserrat-bold.woff2') format('woff2'),
-    url('../css/fonts/montserrat/montserrat-bold.woff') format('woff');
+    src: url('/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+    url('/fonts/montserrat/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bebas';
-    src: url('../css/fonts/bebas/Bebas-Regular.woff2') format('woff2'),
-    url('../css/fonts/bebas/Bebas-Regular.woff') format('woff');
+    src: url('/fonts/bebas/Bebas-Regular.woff2') format('woff2'),
+    url('/fonts/bebas/Bebas-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 /*general font sizing/typeface*/
-.resume {
+body {
     font-family: 'montserrat',sans-serif;
     font-size: .875rem;
     color: #3D405B;
 }
-
-p {font-family: 'montserrat', sans-serif;}
+p.date {
+    font-style: italic;
+}
 
 nav {
     font-family: 'bebas', 'montserrat', sans-serif;
@@ -50,6 +58,11 @@ h3 {
     font-weight: bold;
     font-size: 1rem;
     color: #3D405B;
+}
+/*css reset*/
+body {
+    padding: 0;
+    margin: 0;
 }
 
 /*NAV BAR*/
