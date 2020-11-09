@@ -107,7 +107,7 @@ ul.menu li {
 
 ul.menu {
     float: right;
-    padding: .6rem 1rem;
+    padding: .6rem 1.4rem;
 }
 
 /*intro-frontpage*/
@@ -126,11 +126,14 @@ div.intro {
 
 /*Resume and About*/
 .resume,.about{
-    margin: 7rem 2rem;
+    margin: 5rem 1.5rem;
     line-height: 1.3rem;
     max-width: 610px;
 }
-
+div.center {
+    display:flex;
+    justify-content: center;
+}
 .resumetext {
     display: inline-block;
 }
