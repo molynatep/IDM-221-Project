@@ -1,36 +1,49 @@
 /*FONTS SHEET*/
 @font-face { 
     font-family: 'montserrat';
-    src: url('fonts/montserrat/montserrat-medium.woff2') format('woff2');
+    src: url('../css/fonts/montserrat/montserrat-medium.woff2') format('woff2'),
+    url('../css/fonts/montserrat/montserrat-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;    
 }
 
 @font-face {
     font-family: 'montserrat';
-    src: url('fonts/montserrat/montserrat-bold.woff2') format('woff2');
+    src: url('../css/fonts/montserrat/montserrat-bold.woff2') format('woff2'),
+    url('../css/fonts/montserrat/montserrat-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bebas';
-    src: url('fonts/bebas-kai/Bebas-Regular.woff2') format('woff2');
+    src: url('../css/fonts/bebas/Bebas-Regular.woff2') format('woff2'),
+    url('../css/fonts/bebas/Bebas-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 /*general font sizing/typeface*/
-body {
+.resume {
     font-family: 'montserrat',sans-serif;
     font-size: .875rem;
+    color: #3D405B;
+}
+
+p {font-family: 'montserrat', sans-serif;}
+
+nav {
+    font-family: 'bebas', 'montserrat', sans-serif;
     color: #3D405B;
 }
 
 h1, h2{
     font-family: 'bebas','montserrat',sans-serif;
     color: #3D405B;
+}
+h1 {
+    font-size: 2.5rem;
 }
 h3 {
     font-family: 'montserrat',sans-serif;
@@ -67,7 +80,7 @@ a:hover {
 nav {
     height: 90px;
     font-family: 'bebas','montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -85,24 +98,23 @@ ul.menu {
 }
 
 /*intro-frontpage*/
-p.intro {
+div.intro {
     font-size: 2rem;
     font-weight: bold;
-    line-height: 2.7rem;
-    padding: 5rem 1rem;
+    line-height: 2.8rem;
+    padding: 4rem;
     background-color: #f7ede2;
-
+    background-size: cover;
+    justify-content: center;
 }
 
 /*Resume and About*/
 .resume,.about{
     margin: 6.3rem 2.8rem;
     line-height: 1.3rem;
+    max-width: 650px;
 }
 
 .resumetext {
     display: inline-block;
-}
-.dl {
-    
 }
