@@ -111,21 +111,24 @@ ul.menu {
 }
 
 /*intro-frontpage*/
+
 div.intro {
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.8rem;
-    padding: 4rem;
+    padding: 11.9rem 2.5rem;
     background-color: #f7ede2;
     background-size: cover;
+    display: flex;
     justify-content: center;
+
 }
 
 /*Resume and About*/
 .resume,.about{
-    margin: 6.3rem 2.8rem;
+    margin: 7rem 2rem;
     line-height: 1.3rem;
-    max-width: 650px;
+    max-width: 610px;
 }
 
 .resumetext {
