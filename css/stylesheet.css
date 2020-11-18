@@ -127,7 +127,7 @@ div.intro {
 /*Resume and About*/
 .resume,.about{
     margin: 5rem 2.3rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     max-width: 610px;
 }
 div.center {
@@ -144,19 +144,14 @@ div.center {
     text-align: center;
 }
 
-.container {
+.frontpage_container {
     display: grid; 
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 600px);
+    grid-gap: 15px;
 }
 
 .item1 {
-    background:url("https://via.placeholder.com/720x500") center;
-    background-size: cover;
-    padding: 15rem;
-}
-.item2 {
-    background:url("https://via.placeholder.com/720x500") center;
-    background-size: cover;
-    padding: 15rem;
+    src:("/images/mei_tea_item.jpg");
 }
