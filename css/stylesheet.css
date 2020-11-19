@@ -126,7 +126,7 @@ div.intro {
 
 /*Resume and About*/
 .resume,.about{
-    margin: 5rem 2.3rem;
+    margin: 7rem 2.3rem 3rem;
     line-height: 1.5rem;
     max-width: 610px;
 }
@@ -136,6 +136,11 @@ div.center {
 }
 .resumetext {
     display: inline-block;
+}
+.dl {
+    position: absolute;
+    width: 30px;
+    padding: 1.9rem .5rem 0;
 }
 
 .projects {
