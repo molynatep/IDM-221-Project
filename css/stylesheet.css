@@ -75,7 +75,7 @@ body {
 nav .logo {
     display: block;
     float: left;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
 }
 
 /*nav states*/
@@ -91,12 +91,12 @@ a:hover {
 
 /*nav style*/
 nav {
-    height: 90px;
+    height: 80px;
     font-family: 'bebas','montserrat', sans-serif;
     font-size: 1.4rem;
     position: fixed;
-    top: 0;
     width: 100%;
+    background-color: #f7ede2;
 }
 
 /*nav not stacking vertical*/
@@ -107,7 +107,7 @@ ul.menu li {
 
 ul.menu {
     float: right;
-    padding: .6rem 1.4rem;
+    padding: .3rem 1.4rem;
 }
 
 /*intro-frontpage*/
