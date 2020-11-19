@@ -110,20 +110,6 @@ ul.menu {
     padding: .3rem 1.4rem;
 }
 
-/*intro-frontpage*/
-
-div.intro {
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 3.2rem;
-    padding: 11.9rem 3.5rem;
-    background-color: #f7ede2;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-
-}
-
 /*Resume and About*/
 .resume,.about{
     margin: 7rem 2.3rem 3rem;
@@ -148,6 +134,48 @@ div.center {
     text-align: center;
 }
 
-.idk {
+
+/*intro-frontpage*/
+
+div.intro {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3.2rem;
+    padding: 11.9rem 3.5rem;
+    background-color: #f7ede2;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+h4 {
+    font-size: 2.3rem;
+    color: #FF7D7D;
+    margin: 0;
+    }
+
+.pinktext {
+    font-style: italic;
+    color: #F5CAC3;
+    margin: 0;
+}
+
+.itemtext {
+    font-weight: bold;
+    font-size: .87rem;
+    width: 350px;
+    line-height: 1.7;
+}
+
+.frontpage_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+}
+
+.item {
     width: 400px;
+    padding: 2rem;
+
 }
