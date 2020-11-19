@@ -144,14 +144,6 @@ div.center {
     text-align: center;
 }
 
-.frontpage_container {
-    display: grid; 
-    align-items: center;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 600px);
-    grid-gap: 15px;
-}
-
-.item1 {
-    src:("/images/mei_tea_item.jpg");
+.idk {
+    width: 600px;
 }
