@@ -102,7 +102,7 @@ nav {
 /*nav not stacking vertical*/
 ul.menu li {
     display: inline-flex; 
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 ul.menu {
