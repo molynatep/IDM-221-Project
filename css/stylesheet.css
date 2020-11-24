@@ -173,6 +173,11 @@ h4 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-items: center;
     grid-gap: 1.5rem;
+    background-color: peachpuff;
+}
+
+.frontpage_container:nth-child(odd) {
+    background-color: cadetblue;
 }
 
 .item {
@@ -184,3 +189,4 @@ h4 {
 .item_description {
     padding: .5rem 2rem;
 }
+
