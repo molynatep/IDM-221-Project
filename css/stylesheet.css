@@ -168,16 +168,11 @@ h4 {
     line-height: 1.7;
 }
 
-.frontpage_container {
+.containers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-items: center;
     grid-gap: 1.5rem;
-    background-color: peachpuff;
-}
-
-.frontpage_container:nth-child(odd) {
-    background-color: cadetblue;
 }
 
 .item {
