@@ -164,19 +164,18 @@ h4 {
 .itemtext {
     font-weight: bold;
     font-size: .87rem;
-    width: 350px;
+    width: 300px;
     line-height: 1.7;
 }
 
 .containers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     justify-items: center;
-    grid-gap: 1.5rem;
 }
 
 .item {
-    width: 320px;
+    height: 250px;
     padding: 2rem;
 
 }
