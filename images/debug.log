@@ -3,3 +3,8 @@
 [1125/010841.589:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
 [1130/190047.439:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [1130/201010.321:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1130/235543.044:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1130/235910.975:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[1130/235911.006:WARNING:ipc_message_attachment_set.cc(49)] MessageAttachmentSet destroyed with unconsumed attachments: 0/1
+[1130/235911.022:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[1201/003036.047:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
