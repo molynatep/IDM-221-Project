@@ -49,18 +49,19 @@ nav {
 h1, h2{
     font-family: 'bebas','montserrat',sans-serif;
     color: #3D405B;
-    line-height: 2.5rem;
 }
 h1 {
     font-size: 2.5rem;
+    line-height: 2rem;
 }
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
+
 h3 {
     font-family: 'montserrat',sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #3D405B;
 }
 /*css reset*/
@@ -118,7 +119,7 @@ ul.menu {
 .resume,.about,.casestudy {
     margin: 5.5rem 1.7rem 3rem;
     line-height: 1.9rem;
-    max-width: 610px;
+    max-width: 600px;
 }
 div.center {
     display:flex;
@@ -213,9 +214,23 @@ h4 {
 
 .casestudyheader {
     text-align: center;
+    font-size: 3rem;
+    margin: 2.3rem;
 }
 
 .casetext {
     padding: 0 0 2rem;
 }
 
+.casephotos {
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+    padding: 0 0 1.5rem;
+}
+
+div.casetext > h3 {
+    font-size: 1.5rem;
+    line-height: 0rem;
+    margin-top: 2rem;
+}
