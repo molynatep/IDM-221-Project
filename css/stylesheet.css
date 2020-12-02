@@ -210,7 +210,7 @@ h4 {
 }
 
 
-/*project*/
+/*projects general*/
 
 .casestudyheader {
     text-align: center;
@@ -231,6 +231,15 @@ div.casetext > h3 {
     margin-top: 2rem;
 }
 
+/*giftster*/
+
 .gif {
     height: 480px;
+}
+
+.videotext > h3 {
+    font-size: 1.5rem;
+    line-height: 0rem;
+    margin-bottom: 2rem;
+
 }
