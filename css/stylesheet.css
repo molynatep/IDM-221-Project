@@ -230,3 +230,7 @@ div.casetext > h3 {
     line-height: 0rem;
     margin-top: 2rem;
 }
+
+.gif {
+    height: 480px;
+}
