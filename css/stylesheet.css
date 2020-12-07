@@ -117,8 +117,8 @@ ul.menu {
 
 /*Resume and About*/
 .resume,.about,.casestudy {
-    margin: 5.5rem 1.7rem 3rem;
-    line-height: 1.8rem;
+    margin: 5.5rem 2rem 3rem;
+    line-height: 1.9rem;
     max-width: 600px;
 }
 div.center {
@@ -229,7 +229,7 @@ h4 {
 
 .casephotos {
     padding: 0 0 1.5rem;
-    width: 100%;
+    max-width: 600px;
 }
 
 div.casetext > h3 {
