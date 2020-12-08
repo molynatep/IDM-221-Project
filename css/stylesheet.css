@@ -39,6 +39,7 @@ body {
 }
 p.date {
     font-style: italic;
+    margin: 0;
 }
 
 nav {
@@ -50,12 +51,15 @@ h1, h2{
     font-family: 'bebas','montserrat',sans-serif;
     color: #3D405B;
 }
+
 h1 {
     font-size: 2.5rem;
     line-height: 2rem;
 }
+
 h2 {
     font-size: 1.9rem;
+    margin: 1rem 0 .2rem ;
 }
 
 h3 {
@@ -63,14 +67,23 @@ h3 {
     font-weight: bold;
     font-size: 1.1rem;
     color: #3D405B;
+    margin: .5rem 0 0;
 }
+p {
+    margin: 0 0 1rem;
+}
+
+
 /*css reset*/
 body {
     padding: 0;
     margin: 0;
 }
 
+
+
 /*NAV BAR*/
+
 /*logo*/
 .logo {
      width: 50px
@@ -115,19 +128,25 @@ ul.menu {
     padding: .3rem 1.4rem;
 }
 
-/*Resume and About*/
+
+
+/*RESUME & ABOUT FORMATTING*/
+
 .resume,.about,.casestudy {
     margin: 5.5rem 2rem 3rem;
     line-height: 1.9rem;
     max-width: 600px;
 }
+
 div.center {
     display:flex;
     justify-content: center;
 }
+
 .resumetext {
     display: inline-block;
 }
+
 .dl {
     width: 30px;
     padding: 1.9rem .5rem 0;
@@ -139,8 +158,16 @@ div.center {
     font-size: 350%
 }
 
+ul.list {
+    margin: 0 0 1rem;
+}
+.abouttext {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;;
+}
 
-/*intro-frontpage*/
+
+/*INTRO-FRONTPAGE*/
 
 div.intro {
     font-size: 2rem;
@@ -155,10 +182,12 @@ div.intro {
     align-items: center;
 
 }
+
 p.text {
     margin: 2.5rem;
 }
 
+/*PROJECTS-FRONTPAGE*/
 
 h4 {
     font-size: 2.3rem;
@@ -201,7 +230,8 @@ h4 {
 }
 
 
-/*art page*/
+
+/*ART PAGE*/
 
 .artgallery {
     display: grid;
@@ -216,7 +246,7 @@ h4 {
 }
 
 
-/*projects general*/
+/*PROJECTS/CASESTUDY-PAGES*/
 
 .casestudyheader {
     text-align: center;
@@ -236,10 +266,17 @@ div.casetext > h3 {
     font-size: 1.5rem;
     line-height: 0rem;
     margin-top: 2rem;
+    margin-bottom: 1.1rem;
 }
 
-/*giftster*/
+/*GIFTSTER*/
 
 .gif {
     height: 480px;
+}
+
+.me {
+    width: 200px;
+    border-radius: 50%;
+    padding: 1rem;
 }
