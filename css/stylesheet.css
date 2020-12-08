@@ -64,7 +64,7 @@ h1 {
 
 h2 {
     font-size: 1.9rem;
-    margin: 1rem 0 .2rem ;
+    margin: 1.4rem 0 .2rem ;
 }
 
 h3 {
@@ -125,12 +125,14 @@ nav {
 /*nav not stacking vertical*/
 ul.menu li {
     display: inline-flex; 
-    margin-right: 10px;
+    margin-right: 12px;
+    font-size: 1.7rem;
+    line-height: 0;
 }
 
 ul.menu {
     float: right;
-    padding: .3rem 1.4rem;
+    padding: .3rem 1rem;
 }
 
 
@@ -166,10 +168,26 @@ div.center {
 ul.list {
     margin: 0 0 1rem;
 }
+
+.bottomtop {
+    float: right;
+    font-weight: bold;
+}
+
 .abouttext {
     font-size: 1.5rem;
     margin-bottom: .5rem;;
 }
+
+/*about pic*/
+
+.me {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    padding: 1rem;
+}
+
 
 
 /*INTRO-FRONTPAGE*/
@@ -278,10 +296,4 @@ div.casetext > h3 {
 
 .gif {
     height: 480px;
-}
-
-.me {
-    width: 200px;
-    border-radius: 50%;
-    padding: 1rem;
 }
