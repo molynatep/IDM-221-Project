@@ -297,3 +297,45 @@ div.casetext > h3 {
 .gif {
     height: 480px;
 }
+
+.arrow-l {
+    position: relative;
+    left: 10px;
+    width: 15px;
+    padding: 1rem 0;
+    top: 6.2rem;
+}
+
+/*PROJECT-ARROWS*/
+
+div.left p {
+    position: relative;
+    display: inline-block;
+    top: 4.82rem;
+    left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.arrow-r {
+    position: relative;
+    float: right;
+    right: 15px;
+    width: 28px;
+    padding: 1rem 0;
+    top: 1rem;
+}
+
+div.right p {
+    position: relative;
+    float: right;
+    top: 1.95rem;
+    right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bottompad {
+    position: relative;
+    bottom: 3.5rem;
+}
